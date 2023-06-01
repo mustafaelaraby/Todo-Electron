@@ -2,10 +2,14 @@
   "name": "todo",
   "version": "1.0.0",
   "description": "Todo List Desktop Application\"",
-  "main": "main.js",
+  "main": "./src/main.js",
   "scripts": {
-    "start": "electron .",
-    "pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx,json}\""
+    "start": "electron-forge start",
+    "watch": "nodemon main",
+    "pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx,json}\"",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "electron-squirrel-startup": "x.x.x"
   },
   "repository": {
     "type": "git",
@@ -21,10 +25,16 @@
   },
   "homepage": "https://github.com/mustafaelaraby/Todo-electron#readme",
   "devDependencies": {
+    "@electron-forge/cli": "^6.1.1",
+    "@electron-forge/maker-deb": "^6.1.1",
+    "@electron-forge/maker-rpm": "^6.1.1",
+    "@electron-forge/maker-squirrel": "^6.1.1",
+    "@electron-forge/maker-zip": "^6.1.1",
     "electron": "^25.0.1",
     "prettier": "^2.8.8"
   },
   "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
     "nodemon": "^2.0.22"
   }
 }
