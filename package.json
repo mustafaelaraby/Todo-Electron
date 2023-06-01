@@ -1,0 +1,30 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Todo List Desktop Application\"",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx,json}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mustafaelaraby/Todo-electron.git"
+  },
+  "keywords": [
+    "Mn"
+  ],
+  "author": "Mustafa Elaraby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mustafaelaraby/Todo-electron/issues"
+  },
+  "homepage": "https://github.com/mustafaelaraby/Todo-electron#readme",
+  "devDependencies": {
+    "electron": "^25.0.1",
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

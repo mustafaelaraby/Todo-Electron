@@ -1,0 +1,28 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs
+logs/
+
+# Ignore environment variables file
+.env
+
+# Ignore built output directories
+dist/
+build/
+
+# Ignore npm lock file
+package-lock.json
+
+# Ignore yarn lock file
+yarn.lock
+
+# Ignore editor-specific files and directories
+.vscode/
+.idea/
+
+# Ignore test coverage reports
+coverage/
+
+# Ignore any sensitive or personal files
+config/secrets.json
